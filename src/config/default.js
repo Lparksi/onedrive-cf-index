@@ -17,9 +17,9 @@ const config = {
     sitePath: null
   },
 
-  refresh_token: REFRESH_TOKEN,
+  refresh_token: '0.AUkAU0b-smlOpk6lwFOWcJg97vIYAMoNSG9LgZQa9nf1VLRJABE.AgABAAAAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P-dyQtScR8w1yewfX6jVfgk0hNbNvftuBvdwqkoDyd8qzrlwkGCk6EzFLT6rlTkQ1dVRVJnxZON4iV0Ik6Ls8OdEYyqHHtz61rRPn1tgeXrmT-fCYlB4F6FTibdL6hbBfherFYABFqrOv0PyE3J3QITNjJfySCTMzEZ6b7mE_v4irPX0H_YyVQJbMdDlc8o-DHaFQvMsTis0nxakZldQyt1GrsKpEHsj3oHof9v4asJpf8Mxl0zTEsR7bDbJI-lbGsdKSJKHzQa6xuDWxaNBC1QzUmJrWcGEaJ0yBY9fw8CvBAax-RJkSzdr8xsHRf2Z5NQQIJ-JBmOpo1D0FYm48wMMa3m9vUFkynBeFfd2evFm5YKEAIhEl5U6iHZQXHu59R4mP_z333iep8oioiVAKLtBmyoivI6kLg10rJXl3B31vF7aJpwHsFa8Gye64feGHHftwA01zaWVuVApVod0inhxDsqR_H9UIZ_mGfa83Fh-SdZjttFrqgQFG1qEjh7ZgByYuuqwChS1ebHt4NrCxVyTvdN5HZd2o0VShNm8ruAjFKUP9fvB7cXgCl1n_DRTxE_UsnUC-Rfkv_bsxSgqjcehl0gx4AP7_57LfpAg7QkchzeQ_msaEUNC9XliHcKU6cm6R3RcAGQdDRXhcyUlFEKTvyIBDjbibO3gSCMOIFXUvjh0bPbUlazqNGUjDObwoW6qCAHRN5ukwPeYzDqH8FeKAmbYygDAyRF8aeo2G0pxefRw7R__eVK2cqu52CSabxAPinLBoTF3XHst8H1pIOTtRMISvOYlrtZn09MnLyWQt7H18OcaA_K4OHOaaPbXWpWj-HxdxtkxphheneO5NQCw8eEZKWrNLrF5dK3oH6W-LM5U4DYNF_cOgXJeSZW7pxwA2sN2Vu-ZU5vXoguwb2kXhwkS4Y5',
   client_id: '6600e358-9328-4050-af82-0af9cdde796b',
-  client_secret: CLIENT_SECRET,
+  client_secret: 'Aek3oHQo-AC82K~Uqxi4__Dd~Sg4E-.t64',
 
   /**
    * Exactly the same `redirect_uri` in your Azure Application
@@ -29,7 +29,7 @@ const config = {
   /**
    * The base path for indexing, all files and subfolders are public by this tool. For example: `/Public`.
    */
-  base: '/Public',
+  base: '/',
 
   /**
    * Feature: Pagination when a folder has multiple(>${top}) files
@@ -59,7 +59,7 @@ const config = {
    * `previewCache`: using CloudFlare cache to preview
    */
   cache: {
-    enable: true,
+    enable: false,
     entireFileCacheLimit: 10000000, // 10MB
     chunkedCacheLimit: 100000000, // 100MB
     previewCache: false,
