@@ -4,7 +4,7 @@ workers_dev = true
 account_id = "4c2ec53bbbfd1f0270174fdf049f8408"
 zone_id = "fd48261409bd61ef3051dafe256f2afa"
 kv_namespaces = [
-    { binding = "BUCKET", preview_id = "55b0fc4e288a465fb225421f2af5d445", id = "20a96b703df7448c9517e7bf2de481ee" }
+    { binding = "BUCKET", preview_id = "", id = "20a96b703df7448c9517e7bf2de481ee" }
 ]
 
 [env.staging]
