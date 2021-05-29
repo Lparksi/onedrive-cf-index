@@ -1,4 +1,4 @@
-name = "oneindex"
+name = "onedrive-cf-index"
 type = "webpack"
 workers_dev = true
 account_id = "4c2ec53bbbfd1f0270174fdf049f8408"
@@ -8,4 +8,4 @@ kv_namespaces = [
 ]
 
 [env.staging]
-name = "oneindex"
+name = "onedrive-cf-index"
